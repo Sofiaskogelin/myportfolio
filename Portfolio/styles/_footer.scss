@@ -1,0 +1,34 @@
+
+footer{
+  display: flex;
+  background-color: #d8d8d8;
+  height: 15em;
+  align-items: center;
+
+  //för all text
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  color: grey;
+
+  .sofia-footer{
+    padding-left: 3em;
+    width: calc(100% /3);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+
+  .information{
+    letter-spacing: 0.05em;
+    width: calc(100% /3);
+  }
+
+.social-icons{
+  padding-left: 3em;
+  width: calc(100% /3);
+
+    img{
+      height: 50px;
+      width: 50px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "styles/header.scss";
+@import "styles/about.scss";
+@import "styles/work.scss";
+@import "styles/footer.scss";
+
+@import "styles/variables.scss";
+*{
+  margin: 0;
+}
+
+.full-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 900px) {
+  .main-container h1{
+    font-size: 120px;
+    align-self: flex-end;
+    padding-bottom: 1em;
+  }
+
+  .about-section{
+    flex-direction: column;
+    align-items: center;
+
+    .about-me{
+      width: calc(100%);
+      margin-bottom: 5em;
+    }
+  }
+
+  .work-section{
+    display: flex;
+  }
+}

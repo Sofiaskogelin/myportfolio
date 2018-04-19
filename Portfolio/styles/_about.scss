@@ -1,0 +1,32 @@
+
+.about-section{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+  padding: 10em;
+  justify-content: space-between;
+
+  h2{
+    text-align: left;
+    letter-spacing: 0.05em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-shadow: 1px 1px grey;
+    padding-bottom: 0.5em;
+  }
+  .about-me{
+    letter-spacing: 0.05em;
+    line-height: 2.0em;
+    width: calc(100%/3);
+    align-self: center;
+    background-color: pink;
+    padding: 5em;
+  }
+
+  .img-div{
+    img{
+    width: 30em;
+    border-radius: 50%;
+    }
+  }
+}

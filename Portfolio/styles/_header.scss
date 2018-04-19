@@ -1,0 +1,32 @@
+
+nav{
+  background-color: #282325;
+  height: 5em;
+
+  .sofia-nav{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    margin: 3em 3em;
+  }
+}
+
+.main-container{
+  display: flex;
+  height: 47em;
+  background: #282325;
+  justify-content: flex-end;
+  padding-right: 10em;
+
+h1{
+  display: flex;
+  color: pink;
+  font-size: 160px;
+  letter-spacing: 0.1em;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 3px 3px #9b587a;
+  padding: 0.3em;
+  }
+}

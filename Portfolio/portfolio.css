@@ -1,0 +1,143 @@
+nav {
+  background-color: #282325;
+  height: 5em; }
+  nav .sofia-nav {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    margin: 3em 3em; }
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 47em;
+  background: #282325;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-right: 10em; }
+  .main-container h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: pink;
+    font-size: 160px;
+    letter-spacing: 0.1em;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 3px #9b587a;
+    padding: 0.3em; }
+
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+  padding: 10em;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .about-section h2 {
+    text-align: left;
+    letter-spacing: 0.05em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-shadow: 1px 1px grey;
+    padding-bottom: 0.5em; }
+  .about-section .about-me {
+    letter-spacing: 0.05em;
+    line-height: 2.0em;
+    width: calc(100%/3);
+    -ms-flex-item-align: center;
+    align-self: center;
+    background-color: pink;
+    padding: 5em; }
+  .about-section .img-div img {
+    width: 30em;
+    border-radius: 50%; }
+
+.work-section {
+  background: white;
+  padding: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  line-height: 2.0em; }
+  .work-section .work-div img {
+    width: 30em;
+    opacity: 0.5;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease; }
+  .work-section .work-div h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-shadow: 1px 1px grey;
+    margin-bottom: 1em; }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d8d8d8;
+  height: 15em;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  color: grey; }
+  footer .sofia-footer {
+    padding-left: 3em;
+    width: calc(100% /3);
+    text-transform: uppercase;
+    letter-spacing: 0.2em; }
+  footer .information {
+    letter-spacing: 0.05em;
+    width: calc(100% /3); }
+  footer .social-icons {
+    padding-left: 3em;
+    width: calc(100% /3); }
+    footer .social-icons img {
+      height: 50px;
+      width: 50px; }
+
+* {
+  margin: 0; }
+
+.full-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+@media (max-width: 900px) {
+  .main-container h1 {
+    font-size: 120px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    padding-bottom: 1em; }
+  .about-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .about-section .about-me {
+      width: calc(100%);
+      margin-bottom: 5em; }
+  .work-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
