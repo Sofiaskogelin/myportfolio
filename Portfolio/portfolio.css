@@ -8,6 +8,8 @@ nav {
     letter-spacing: 0.2em;
     font-size: 1em;
     margin: 3em 3em; }
+  nav .sofia-nav:hover {
+    font-size: 2px; }
 
 .main-container {
   display: -webkit-box;
