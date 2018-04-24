@@ -15,7 +15,16 @@ nav{
 
   a{
     text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: font-size 0.5s ease;
+
+transition-timing-function: ease-in;
   }
+  a:hover {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
 }
 
 .main-container{
@@ -27,10 +36,10 @@ nav{
 
 h1{
   display: flex;
-  color: #f29dc9;
+  color: pink;
   font-size: 160px;
   letter-spacing: 0.1em;
-  //font-family: $font;
+  font-family: $font;
   text-shadow: 3px 3px #9b587a;
   padding: 0.3em;
   }
