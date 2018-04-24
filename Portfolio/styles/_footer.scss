@@ -1,10 +1,11 @@
+@import "styles/variables.scss";
 
 footer{
   display: flex;
   background-color: #d8d8d8;
   height: 15em;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: $sofia-font;
   font-size: 1.2em;
   color: grey;
 

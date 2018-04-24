@@ -2,14 +2,14 @@ nav {
   background-color: #282325;
   height: 5em; }
   nav .sofia-nav {
-    color: white;
-    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 1em;
     margin: 3em 3em; }
-  nav .sofia-nav:hover {
-    font-size: 2px; }
+  nav a {
+    text-decoration: none; }
 
 .main-container {
   display: -webkit-box;
@@ -25,10 +25,9 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: pink;
+    color: #f29dc9;
     font-size: 160px;
     letter-spacing: 0.1em;
-    font-family: 'Roboto', sans-serif;
     text-shadow: 3px 3px #9b587a;
     padding: 0.3em; }
 
@@ -36,7 +35,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   background: white;
   padding: 10em;
   -webkit-box-pack: justify;
@@ -45,7 +44,7 @@ nav {
   .about-section h2 {
     text-align: left;
     letter-spacing: 0.05em;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 60px;
     text-shadow: 1px 1px grey;
     padding-bottom: 0.5em; }
@@ -78,7 +77,7 @@ nav {
     -o-transition: .5s ease;
     transition: .5s ease; }
   .work-section .work-div h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 35px;
     text-shadow: 1px 1px grey;
     margin-bottom: 1em; }
@@ -92,7 +91,7 @@ footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 1.2em;
   color: grey; }
   footer .sofia-footer {
